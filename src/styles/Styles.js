@@ -1,8 +1,7 @@
 import styled from "styled-components"
 
 export const Home = styled.section`
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     color: white;
     text-align: center;
     display: grid;
@@ -14,6 +13,16 @@ export const Home = styled.section`
 
 export const Title = styled.section`
     grid-area: title;
+`
+
+export const TitleName = styled.h1`
+    padding: 35px 35px 0px 35px;
+    margin: 0;
+`
+
+export const TitleSub = styled.h5`
+    padding: 0px 35px 35px 35px;
+    margin: 0;
 `
 
 export const Links = styled.section`
