@@ -2,7 +2,7 @@ import React from 'react'
 
 import {
     Home
-} from '../styles/Home/homeStyles'
+} from '../styles/Styles'
 
 const HomeComp = () => {
     return (
