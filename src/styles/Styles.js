@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const Home = styled.section`
+export const Home = styled.div`
     width: 100%;
     color: white;
     text-align: center;
@@ -11,7 +11,7 @@ export const Home = styled.section`
     'main'
 `
 
-export const Title = styled.section`
+export const Title = styled.div`
     grid-area: title;
 `
 
@@ -25,11 +25,11 @@ export const TitleSub = styled.h5`
     margin: 0;
 `
 
-export const Links = styled.section`
+export const Links = styled.div`
     grid-area: links;
 `
 
-export const Main = styled.section`
+export const Main = styled.div`
     grid-area: main;
     background: rgb(64, 64, 64);
     display: grid;
@@ -42,10 +42,33 @@ export const Nav = styled.nav`
     grid-area: nav;
 `
 
-export const Sections = styled.section`
+export const Sections = styled.div`
     grid-area: sections;
 `
 
-export const Summary = styled.section`
-    
+export const Summary = styled.div`
+
+`
+export const Skills = styled.div`
+
+`
+
+export const Project = styled.div`
+
+`
+
+export const ProjectName = styled.div`
+
+`
+
+export const ProjectLink = styled.div`
+
+`
+
+export const ProjectLang = styled.div`
+
+`
+
+export const ProjectDescription = styled.div`
+
 `
