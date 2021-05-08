@@ -1,7 +1,11 @@
 import React from 'react'
 
+import {
+    Skills
+} from '../../../styles/Styles'
+
 const SkillsComp = () => {
-    return <h1>Hello Fuck Face!</h1>
+    return <Skills>Hello Skills!</Skills>
 }
 
 export default SkillsComp
