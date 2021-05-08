@@ -12,7 +12,7 @@ import {
 const SectionsComp = () => {
     return (
         <Sections>
-            <Route path='/' component={HomeComp}/>
+            <Route exact path='/' component={HomeComp}/>
             <Route path='/skills' component={SkillsComp}/>
             <Route path='/projects' component={ProjectsComp}/>
         </Sections>
