@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 import {
     Nav
@@ -8,11 +8,9 @@ import {
 const NavComp = () => {
     return (
         <Nav>
-            <ul>
-            <li><NavLink to='/'>Home</NavLink></li>
-            <li><NavLink to='/skills'>Skills</NavLink></li>
-            <li><NavLink to='/projects'>Projects</NavLink></li>
-            </ul>
+            <Link><NavLink to='/'>Home</NavLink></Link>
+            <Link><NavLink to='/skills'>Skills</NavLink></Link>
+            <Link><NavLink to='/projects'>Projects</NavLink></Link>
         </Nav>
     )
 }
