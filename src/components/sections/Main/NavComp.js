@@ -1,5 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Route, NavLink } from 'react-router-dom'
+
+import HomeComp from './HomeComp'
+import SkillsComp from './SkillsComp'
+import ProjectsComp from './ProjectsComp'
 
 import {
     Nav
@@ -8,9 +12,11 @@ import {
 const NavComp = () => {
     return (
         <Nav>
-            <Link to='/'>Home</Link>
-            <Link to='/'>Skills</Link>
-            <Link to='/'>Projects</Link>
+            <ul>
+            <li><NavLink to='/'>Home</NavLink></li>
+            <li><NavLink to='/skills'>Skills</NavLink></li>
+            <li><NavLink to='/projects'>Projects</NavLink></li>
+            </ul>
         </Nav>
     )
 }
