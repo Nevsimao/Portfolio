@@ -1,7 +1,11 @@
 import React from 'react'
 
+import {
+    Project
+} from '../../../styles/Styles'
+
 const ProjectsComp = () => {
-    return <h1>Hello Face!</h1>
+    return <Project>Hello Projects!</Project>
 }
 
 export default ProjectsComp
