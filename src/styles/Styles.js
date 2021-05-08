@@ -45,3 +45,7 @@ export const Nav = styled.nav`
 export const Sections = styled.section`
     grid-area: sections;
 `
+
+export const Summary = styled.section`
+    
+`
