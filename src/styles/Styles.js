@@ -31,6 +31,7 @@ export const Links = styled.section`
 
 export const Main = styled.section`
     grid-area: main;
+    background: rgb(64, 64, 64);
     display: grid;
     grid-template-areas: 
     'nav'
