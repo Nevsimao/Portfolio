@@ -1,16 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import {
-    Links
+    Links,
+    StyledLink
 } from '../../styles/Styles'
 
 const LinksComp = () => {
     return (
         <Links>
-            <Link to='/'>GitHub</Link>
-            <Link to='/'>LinkedIn</Link>
-            <Link to='/'>Twitter</Link>
+            <StyledLink to='/'>GitHub</StyledLink>
+            <StyledLink to='/'>LinkedIn</StyledLink>
+            <StyledLink to='/'>Twitter</StyledLink>
         </Links>
     )
 }
