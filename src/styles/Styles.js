@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Link, NavLink } from 'react-router-dom'
 
 export const Home = styled.div`
     width: 100%;
@@ -27,6 +28,22 @@ export const TitleSub = styled.h5`
 
 export const Links = styled.div`
     grid-area: links;
+`
+
+export const StyledLink = styled(Link)`
+    text-decoration: none;
+
+    &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+    }
+`
+
+export const StyledNavLink = styled(NavLink)`
+    text-decoration: none;
+
+    &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+    }
 `
 
 export const Main = styled.div`
