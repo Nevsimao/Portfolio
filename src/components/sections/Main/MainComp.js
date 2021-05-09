@@ -3,9 +3,7 @@ import { HashRouter } from 'react-router-dom'
 import SelectionsComp from './SectionsComp'
 import NavComp from './NavComp'
 
-import {
-    Main
-} from '../../../styles/Styles'
+import { Main } from '../../../styles/Styles'
 
 const MainComp = () => {
     return (
