@@ -9,9 +9,21 @@ import {
 const NavComp = () => {
     return (
         <Nav>
-            <StyledLink><StyledNavLink to='/'>Home</StyledNavLink></StyledLink>
-            <StyledLink><StyledNavLink to='/skills'>Skills</StyledNavLink></StyledLink>
-            <StyledLink><StyledNavLink to='/projects'>Projects</StyledNavLink></StyledLink>
+            <StyledLink>
+                <StyledNavLink to='/'>
+                    Home
+                </StyledNavLink>
+            </StyledLink>
+            <StyledLink>
+                <StyledNavLink to='/skills' activeStyle={{ background: 'rgb(32, 32, 32)' }}>
+                    Skills
+                </StyledNavLink>
+            </StyledLink>
+            <StyledLink>
+                <StyledNavLink to='/projects' activeStyle={{ background: 'rgb(32, 32, 32)' }}>
+                    Projects
+                </StyledNavLink>
+            </StyledLink>
         </Nav>
     )
 }
