@@ -1,16 +1,29 @@
 import React from 'react'
-import { NavLink, Link } from 'react-router-dom'
 
 import {
-    Nav
+    Nav,
+    StyledLink,
+    StyledNavLink
 } from '../../../styles/Styles'
 
 const NavComp = () => {
     return (
         <Nav>
-            <Link><NavLink to='/'>Home</NavLink></Link>
-            <Link><NavLink to='/skills'>Skills</NavLink></Link>
-            <Link><NavLink to='/projects'>Projects</NavLink></Link>
+            <StyledLink>
+                <StyledNavLink to='/'>
+                    Home
+                </StyledNavLink>
+            </StyledLink>
+            <StyledLink>
+                <StyledNavLink to='/skills' activeStyle={{ background: 'rgb(32, 32, 32)' }}>
+                    Skills
+                </StyledNavLink>
+            </StyledLink>
+            <StyledLink>
+                <StyledNavLink to='/projects' activeStyle={{ background: 'rgb(32, 32, 32)' }}>
+                    Projects
+                </StyledNavLink>
+            </StyledLink>
         </Nav>
     )
 }

@@ -1,16 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import {
-    Links
+    Links,
+    StyledLink,
+    GitIcon,
+    LinkedInIcon
 } from '../../styles/Styles'
 
 const LinksComp = () => {
     return (
         <Links>
-            <Link to='/'>GitHub</Link>
-            <Link to='/'>LinkedIn</Link>
-            <Link to='/'>Twitter</Link>
+            <StyledLink to='/'>
+                <GitIcon size="28" />
+            </StyledLink>
+            <StyledLink to='/'>
+                <LinkedInIcon size="28" />
+            </StyledLink>
         </Links>
     )
 }
