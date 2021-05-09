@@ -2,9 +2,7 @@ import React from 'react'
 import { Typewriter } from 'react-typewriting-effect'
 import 'react-typewriting-effect/dist/index.css'
 
-import {
-    Summary
-} from '../../../styles/Styles'
+import { Summary } from '../../../styles/Styles'
 
 const HomeComp = () => {
     return (
