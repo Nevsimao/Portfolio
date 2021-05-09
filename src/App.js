@@ -1,10 +1,7 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import HomeComp from './components/HomeComp'
 
-import {
-  GlobalStyles
-} from './styles/GlobalStyles'
+import { GlobalStyles } from './styles/GlobalStyles'
 
 export default function App() {
   return (
