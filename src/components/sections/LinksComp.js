@@ -2,15 +2,20 @@ import React from 'react'
 
 import {
     Links,
-    StyledLink
+    StyledLink,
+    GitIcon,
+    LinkedInIcon
 } from '../../styles/Styles'
 
 const LinksComp = () => {
     return (
         <Links>
-            <StyledLink to='/'>GitHub</StyledLink>
-            <StyledLink to='/'>LinkedIn</StyledLink>
-            <StyledLink to='/'>Twitter</StyledLink>
+            <StyledLink to='/'>
+                <GitIcon size="28" />
+            </StyledLink>
+            <StyledLink to='/'>
+                <LinkedInIcon size="28" />
+            </StyledLink>
         </Links>
     )
 }
