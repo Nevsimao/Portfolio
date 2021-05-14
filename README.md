@@ -1,1 +1,1 @@
-#My portfolio built using RectJS and Styled-components.
+#My portfolio built using Rect and Styled-components.
