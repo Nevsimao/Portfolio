@@ -16,7 +16,7 @@ const NavComp = () => {
             </StyledLink>
             <StyledLink>
                 <StyledNavLink to='/skills' activeStyle={{ background: 'rgb(32, 32, 32)' }}>
-                    Skills
+                    About
                 </StyledNavLink>
             </StyledLink>
             <StyledLink>
