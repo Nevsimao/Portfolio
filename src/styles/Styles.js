@@ -129,6 +129,20 @@ export const Summary = styled.div`
 `
 
 export const Skills = styled.div`
+    display: grid;
+    grid-template-rows: 25vh auto;
+    grid-template-areas: 
+    'skills'
+    'education'
+    ;
+`
+
+export const skillSec = styled.div`
+    grid-area: skills;
+`
+
+export const educationSec = styled.div`
+    grid-area: education;
 `
 
 export const Project = styled.div`
