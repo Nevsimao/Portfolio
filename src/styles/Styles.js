@@ -35,12 +35,12 @@ export const Title = styled.div`
 `
 
 export const TitleName = styled.h1`
-    padding: 35px 35px 0px 35px;
+    padding: 1.5em 0em 0em 0em;
     margin: 0;
 `
 
 export const TitleSub = styled.h5`
-    padding: 0rem 0rem 1rem 0rem;
+    padding: 0em 0em 1em 0em;
     margin: 0;
 `
 
@@ -48,11 +48,10 @@ export const Links = styled.div`
     grid-area: links;
     display: flex;
 	flex-wrap: wrap;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-between;
 	margin: 0 auto 0 auto;
-	padding: 3px 0px 3px 0px;
-	height: 6vh;
+	padding: 0.3em 0em 0.1em 0em;
 	text-align: center;
     animation: 2.5s ${tadaAni};
 `
@@ -68,13 +67,13 @@ export const StyledLink = styled(Link)`
 
 export const StyledNavLink = styled(NavLink)`
 	margin: 0 auto 0 1rem;
-    padding: 1.5px 3px;
+    padding: 0.25em 0.18em;
 	color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
-	border: 1px solid white;
+	border: 0.09em solid white;
     &.bottom {
 		justify-content: center;
 	}
@@ -83,7 +82,7 @@ export const StyledNavLink = styled(NavLink)`
     }
     &:hover {
         background: rgb(32, 32, 32);
-        transform: scale(1.05);
+        transform: scale(1.08);
     }
     &:focus, &:hover, &:visited, &:link, &:active {
         text-decoration: none;
@@ -93,8 +92,8 @@ export const StyledNavLink = styled(NavLink)`
 export const Main = styled.div`
     grid-area: main;
     background: rgb(64, 64, 64);
-    margin-top: 1rem;
-    border-radius: 10px;
+    margin-top: 1.5em;
+    border-radius: 0.8em;
     display: grid;
     animation: 1s ${fadeInAni};
     grid-template-areas: 
@@ -104,26 +103,29 @@ export const Main = styled.div`
 
 export const Nav = styled.nav`
     grid-area: nav;
-    margin-top: 0.3rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 100%;
+    width: 97.5%;
 	flex-wrap: wrap;
 	flex-direction: row;
 	margin: 0 auto 0 auto;
-	padding: 9px 0px 6px 0px;
+	padding: 0.8em 0em 0em 0.6em;
 	text-align: center;
 `
 
 export const Sections = styled.div`
     grid-area: sections;
     height: 50vh;
-    margin-top: 0.5rem;
-    padding: 0px 0 6px 0px;
 `
 
 export const Summary = styled.div`
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 0em 0em 0.8em 0.8em;
 `
 
 export const Skills = styled.div`
