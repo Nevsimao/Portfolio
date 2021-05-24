@@ -7,8 +7,12 @@ import skills_Comp from './Skills_Comp'
 const SkillsComp = () => {
     return (
         <Skills>
-            <skills_Comp/>
-            <edu/>
+            <skills_Comp>
+                Skills
+            </skills_Comp>
+            {/* <edu>
+                Education
+            </edu> */}
         </Skills>
     )
 }
